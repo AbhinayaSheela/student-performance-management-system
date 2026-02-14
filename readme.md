@@ -1,30 +1,21 @@
-# Student Performance Management System
+#  Student Performance Management System (Streamlit)
 
-## Project Overview
-A Streamlit web application that manages student performance data using MySQL.
+This repository contains a simple Student Performance Management System built using Python, Streamlit, and MySQL.
+
+## Files included
+
+* app.py – Main application
+* db.sql – Database schema
+* requirements.txt – Dependencies
+* Screenshots/ – Project screenshots
 
 ## Features
-- Add student details
-- View all students
-- Update marks
-- Delete student record
-- Pass/Fail status
-- Average marks calculation
-- Pass percentage
-- Top scorer
-- Subject-wise average
-- Bar & Pie chart visualization
 
-## Tech Stack
-- Streamlit
-- Python
-- MySQL
-- Pandas
-- Matplotlib
-## Setup Instructions
-1. Install MySQL and create database using db.sql
-2. Install dependencies:
-   pip install -r requirements.txt
-3. Update MySQL password in app.py
-4. Run:
-   streamlit run app.py
+* Add, view, update, and delete student records
+* Store data in MySQL
+* Show Pass/Fail status
+* Calculate average marks and pass percentage
+* Identify top scorer
+* Visualize data using bar and pie charts
+
+This project is created for learning and practice purposes.
